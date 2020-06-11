@@ -37,7 +37,7 @@ app
   )
   .get(
     catchError(async (req, res) => {
-      const allTodos = await pool.query('SELECT * FROM todo');
+      const allTodos = await pool.query('SELECT * FROM todo ORDER BY todo_id');
 
       res.json({
         status: 'success',
