@@ -47,7 +47,7 @@ app
   .get(
     catchError(async (req: Request, res: Response) => {
       const allTodos = await pool.query("SELECT * FROM todo ORDER BY todo_id");
-      console.log(allTodos);
+
       res.json({
         status: "success",
         data: allTodos.rows,
