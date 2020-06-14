@@ -6,4 +6,4 @@ CREATE TABLE todo
     description VARCHAR(255) NOT NULL
 ); 
 
--- \i "C:/Users/Pondok Programmer/Documents/faizi/faizi/javascript/fullstack/PERN todo list/server/database.sql"
+-- \i 'C:/Users/PondokProgrammer/Documents/faizi/faizi/javascript/fullstack/PERN-todo-list/server/database.sql'
